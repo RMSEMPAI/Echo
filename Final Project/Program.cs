@@ -15,7 +15,7 @@ namespace Final_Project
     {
         static void Main(string[] args)
         {
-            Anketa();
+            PrintInfo();
             Console.ReadKey();
         }
         static (string Name, string LastName, double Age, string[] Pets,string[] FavColors)EnterUser()
@@ -124,7 +124,7 @@ namespace Final_Project
 
             }
         }
-        static void Anketa()
+        static void PrintInfo()
         {
             Console.WriteLine("Информация о пользователе:{0}", EnterUser());
         }
